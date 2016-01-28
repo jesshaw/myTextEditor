@@ -1,0 +1,12 @@
+/c2u_tmp
+/Package Control.cache
+/SideBarEnhancements
+/SublimeLinter
+/bower_components
+/*.json
+/*.sublime-keymap
+/*.merged-ca-bundle
+/*.system-ca-bundle
+/*.user-ca-bundle
+/*.last-run
+/*.py

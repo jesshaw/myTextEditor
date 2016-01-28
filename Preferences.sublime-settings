@@ -1,0 +1,15 @@
+{
+	"color_scheme": "Packages/User/SublimeLinter/Flatland Dark (SL).tmTheme",
+	"font_size": 13,
+	"ignored_packages":
+	[
+		"AngularJS Snippets",
+		"CodeFormatter",
+		"JavaScript Snippets",
+		"JsFormat",
+		"Pretty JSON",
+		"Terminal",
+		"Vintage"
+	],
+	"word_wrap": "true"
+}

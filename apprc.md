@@ -13,4 +13,5 @@ React Native着力于提高多平台开发的开发效率 —— 仅需学习一
 Facebook已经在多项产品中使用了React Native，并且将持续地投入建设React Native。
 
 [官网](https://facebook.github.io/react-native/)
+
 [react native中文](http://reactnative.cn/)

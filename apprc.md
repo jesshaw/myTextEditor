@@ -3,6 +3,7 @@
 ionic是一个专注于用WEB开发技术，基于HTML5创建类似于手机平台原生应用的一个开发框架。目前绑定的与angularJS和SASS。这个框架的目的是从web的角度开发手机应用，基于PhoneGap的编译平台，可以实现编译成各个平台的应用程序。
 
 [官网](http://ionicframework.com/)
+
 [ionic中文学习](http://www.ionic.wang/)
 
 ##react native

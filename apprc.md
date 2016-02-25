@@ -19,3 +19,13 @@ Facebook已经在多项产品中使用了React Native，并且将持续地投入
 [官网](https://facebook.github.io/react-native/)
 
 [react native中文](http://reactnative.cn/)
+
+
+
+## Android SDK
+
+[解决Android SDK Manager下载太慢问题](http://blog.csdn.net/exlsunshine/article/details/22208857)
+
+[解决下载gradle过慢问题](http://stackoverflow.com/questions/29874564/ionic-build-android-error-when-download-gradle)
+
+[使用迅雷下载对应的包，然后放到Android SDK temp目录](http://www.cnblogs.com/liongis/p/3659813.html)

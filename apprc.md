@@ -6,7 +6,7 @@ ionic是一个专注于用WEB开发技术，基于HTML5创建类似于手机平�
 
 [ionic中文学习](http://www.ionic.wang/)
 
-[ionic原创中文教程](http://www.haomou.net/2014/08/07/2014_ionic/)
+[ionic原创中文教程](http://www.haomou.net/2014/10/06/2014_ionic_learn/)
 
 [ionic中文教程](http://www.runoob.com/ionic/ionic-tutorial.html)
 

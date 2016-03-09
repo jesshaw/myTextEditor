@@ -10,6 +10,8 @@ ionic是一个专注于用WEB开发技术，基于HTML5创建类似于手机平�
 
 [ionic中文教程](http://www.runoob.com/ionic/ionic-tutorial.html)
 
+[ionic free resource](http://emersonthompson.com.br/ionic-collection/)
+
 ##react native
 
 React Native使你能够在Javascript和React的基础上获得完全一致的开发体验，构建世界一流的原生APP。

@@ -118,7 +118,7 @@ Don't use confusing constructs like the one below:
 
 	var result = someField = GetSomeMethod();
 
-### Favor Object and Collection Initializers over separate statements (AV1523) ![](images/?.png)
+### Favor Object and Collection Initializers over separate statements (AV1523) ![](images/2.png)
 ### 对象或集合初始化使用单个语句更好
 Instead of:
 

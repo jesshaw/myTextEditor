@@ -9,3 +9,7 @@
 ## html preview
 
 http://htmlpreview.github.io/?https://github.com/jesshaw/myTextEditor/blob/master/bookmarks_chrome.html
+
+## Markdown Style Guide
+
+[Markdown Style](http://www.cirosantilli.com/markdown-style-guide/)

@@ -1,6 +1,23 @@
 {
+	"binary_file_patterns":
+	[
+		"*.dds",
+		"*.eot",
+		"*.gif",
+		"*.ico",
+		"*.jar",
+		"*.jpeg",
+		"*.jpg",
+		"*.pdf",
+		"*.png",
+		"*.swf",
+		"*.tga",
+		"*.ttf",
+		"*.zip",
+		"/D/Projects/sb/angular2-tour-of-heroes/app/**"
+	],
 	"color_scheme": "Packages/User/SublimeLinter/Flatland Dark (SL).tmTheme",
-	"font_size": 12,
+	"font_size": 13,
 	"ignored_packages":
 	[
 		"AngularJS Snippets",

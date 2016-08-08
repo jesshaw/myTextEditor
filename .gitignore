@@ -3,6 +3,7 @@
 /SideBarEnhancements
 /SublimeLinter
 /bower_components
+/SBSCompare.tmTheme
 /*.json
 /*.sublime-keymap
 /*.merged-ca-bundle

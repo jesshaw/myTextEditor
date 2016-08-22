@@ -71,3 +71,18 @@ $ git gc --prune=now
 $ git gc --aggressive --prune=now
 ```
 
+## 增加所有更改并提交
+
+``` bash
+$ git commit -a -m "提交备注"
+```
+
+## 取消远程某次或某几次提交(远程日志保留)
+
+``` bash
+$ git revert --no-commit b49eb8e 1d8b062
+## 解决冲突后提交
+$ git commit -a -m "Revert commits b49eb8e and 1d8b062"
+```
+
+

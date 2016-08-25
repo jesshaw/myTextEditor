@@ -1,36 +1,37 @@
 #centos-7 install nodejs
 
-##Select a centos-7-x86_64 Operating System for your VPS:
+1. 选择 centos-7-x86_64 操作系统
 
-``` bash
-  [root@localhost ~]# yum -y install gcc gcc-c++ openssl-devel
-  [root@localhost ~]# mkdir node
-  [root@localhost ~]# cd node
-  [root@localhost node]# wget http://nodejs.org/dist/v5.12.0/node-v5.12.0.tar.gz
-  [root@localhost node]# tar zxvf node-v5.12.0.tar.gz
-  [root@localhost node]# cd node-v5.12.0
-  [root@localhost node-v5.12.0]# ./configure --prefix=/usr/local/node/5.12.0
-  [root@localhost node-v5.12.0]# make
-  [root@localhost node-v5.12.0]# make install
-```
+    ``` bash
+      [root@localhost ~]# yum -y install gcc gcc-c++ openssl-devel
+      [root@localhost ~]# mkdir node && cd node
+      [root@localhost node]# wget http://nodejs.org/dist/v5.12.0/node-v5.12.0.tar.gz
+      [root@localhost node]# tar zxvf node-v5.12.0.tar.gz
+      [root@localhost node]# mkdir -p /usr/local/node/5.12.0
+      [root@localhost node]# cd node-v5.12.0
+      [root@localhost node-v5.12.0]# ./configure --prefix=/usr/local/node/5.12.0
+      [root@localhost node-v5.12.0]# make    #编译时间长
+      [root@localhost node-v5.12.0]# make install
+    ```
 
 
-##Set nodejs env
-``` bash
-  [root@localhost node-v5.12.0]# vim /etc/profile
-```
-###在此行之前 export PATH USER LOGNAME MAIL HOSTNAME HISTSIZE HISTCONTROL 增加
+2. 设置 nodejs 系统环境
+    ``` bash
+      [root@localhost node-v5.12.0]# vim /etc/profile
+    ```
+    在此行之前 export PATH USER LOGNAME MAIL HOSTNAME HISTSIZE HISTCONTROL 增加
 
-``` bash
-  export NODE_HOME=/usr/local/node/5.12.0
-  export NODE_PATH=$NODE_HOME/lib/node_modules
-  export PATH=$NODE_HOME/bin:$PATH
-```
+    ```
+      export NODE_HOME=/usr/local/node/5.12.0
+      export NODE_PATH=$NODE_HOME/lib/node_modules
+      export PATH=$NODE_HOME/bin:$PATH
+    ```
 
-##生效
-``` bash
-  [root@localhost node-v5.12.0]# source /etc/profile
-```
+3. 生效
+    ``` bash
+      [root@localhost node-v5.12.0]# source /etc/profile
+      [root@localhost node-v5.12.0]# node -v
+    ```
 
 ##hello world samp
 ``` bash

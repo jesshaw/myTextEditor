@@ -9,3 +9,8 @@ $ find . -name "*.js" -delete
 ```bash
 $  ps aux | grep node
 ```
+
+## 更改密码
+```bash
+$  passwd
+```

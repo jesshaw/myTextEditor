@@ -85,4 +85,9 @@ $ git revert --no-commit b49eb8e 1d8b062
 $ git commit -a -m "Revert commits b49eb8e and 1d8b062"
 ```
 
+## 取消本地文件修改
+``` bash
+$ git checkout file1.js file2.js
+```
+
 

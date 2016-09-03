@@ -6,6 +6,11 @@ $ git checkout -b dev.0.1 origin/dev.0.1
 $ git checkout dev.0.1
 ```
 
+## 以ssh方式复制项目（不需要输入帐户）
+```sh
+$ git clone git@github.com:jesshaw/node-sample-project.git
+```
+
 ## 日志输出更友好
 ```bash
 $ git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
@@ -71,7 +76,7 @@ $ git gc --prune=now
 $ git gc --aggressive --prune=now
 ```
 
-## 增加所有更改并提交
+## 提交所有更改的文件
 
 ``` bash
 $ git commit -a -m "提交备注"

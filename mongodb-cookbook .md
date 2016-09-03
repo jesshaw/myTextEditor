@@ -36,6 +36,10 @@
 	net stop MongoDB
 	"C:\MongoDB\Server\3.2\bin\mongod.exe" --remove
 	```
+## 连接本地库
+```bash
+mongo
+```
 
 ## 删除集合（表）
 ```bash

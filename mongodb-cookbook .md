@@ -44,6 +44,11 @@ mongo
 ## 删除集合（表）
 ```bash
 db.user.drop()
+
+db.user.deleteOne( { "_id" : ObjectId("57cc1f937fec8d45889469f3") } ); --删除指定记录
+db.user.updateOne({username:"tsy"},{$set:{roles:"teacher,student"}}); --更改指定记录
+
+
 ```
 
 ## centos 7 安装 MongoDB

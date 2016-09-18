@@ -88,6 +88,14 @@ $  passwd
 [参考1](http://www.cnblogs.com/vicowong/p/4156931.html)
 [参考2](http://www.cnblogs.com/cjky/p/4971284.html)
 
+## 安装git
+
+	``` bash
+	$ sudo yum install git-all
+	```
+
+	[ref](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+
 
 ## centos-7 install ftp
 

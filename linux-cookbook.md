@@ -168,4 +168,33 @@ $  passwd
 [参考](https://www.yanning.wang/archives/184.html)
 
 
+## centos-7 install shadowsocks-libev
+
+一键安装 libev 版的 shadowsocks 最新版本。该版本的特点是内存占用小（600k左右），低 CPU 消耗，甚至可以安装在基于 OpenWRT 的路由器上。
+
+1. 安装
+	``` bash
+	$ wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-libev.sh
+	$ chmod +x shadowsocks-libev.sh
+	$ ./shadowsocks-libev.sh 2>&1 | tee shadowsocks-libev.log
+	```
+2. 卸载方法
+	``` bash
+	$ ./shadowsocks-libev.sh uninstall
+	```
+3. 查看是否已启动（安装完成后会自动设置为开机启动）
+
+	``` bash
+	$ ps aux | grep ss-server | grep -v grep
+	```
+4. 其他命令
+
+	``` bash
+	$ /etc/init.d/shadowsocks start #启动
+	$ /etc/init.d/shadowsocks stop #停止
+	$ /etc/init.d/shadowsocks restart #重启
+	$ /etc/init.d/shadowsocks status #查看状态
+	$ vim /etc/shadowsocks-libev/config.json #查看配置信息
+	```
+
 

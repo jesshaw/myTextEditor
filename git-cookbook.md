@@ -95,4 +95,13 @@ $ git commit -a -m "Revert commits b49eb8e and 1d8b062"
 $ git checkout file1.js file2.js
 ```
 
+## 选择某个（dev1）分支上指定的提交合并到其他（bugfix）分支
+
+``` bash
+$ git checkout dev1
+$ git rebase -i bugfix #基于bugfix，列出提交的记录，选择需要的提交执行。有时需要解决冲突
+$ git checkout bugfix
+$ git merge dev1 
+```
+[参考](https://backlogtool.com/git-guide/cn/stepup/stepup2_8.html)
 

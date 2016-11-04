@@ -1,3 +1,5 @@
+[居住证积分](http://jzzjf.12333sh.gov.cn/jzzjf/loginAfter)
+
 [社保查询](http://www.12333sh.gov.cn/sbsjb/wzb/226.jsp#) 使用身份证号
 
 [持有《上海市居住证》人员申办本市常住户口审批](http://www.12333sh.gov.cn/201412333/wsbs/xz/03/) 上海市居转户办理材料，流程，日期

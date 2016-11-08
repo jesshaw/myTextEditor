@@ -14,8 +14,8 @@ $ git clone git@github.com:jesshaw/node-sample-project.git
 ## 日志输出更友好
 ```bash
 $ git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
-$ git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
-$ git config --global alias.lgl "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%ci) %C(bold blue)<%an>%Creset' --abbrev-commit"
+$ git config --global alias.lg "log --color --graph --pretty=format:'%C(bold cyan)%h%C(reset) -%C(yellow)%d%C(reset) %s %C(green)(%cr) %C(bold magenta)<%an>%C(reset)' --abbrev-commit"
+$ git config --global alias.lgl "log --color --graph --pretty=format:'%C(bold cyan)%h%C(reset) -%C(yellow)%d%C(reset) %s %C(green)(%ci) %C(bold magenta)<%an>%Creset' --abbrev-commit"
 $ git config --global --unset alias.lg
 $ git config --global --unset alias.lgl
 ```

@@ -13,4 +13,6 @@
 
     // Add a name of parameter in param tag?
     "jsdocs_param_name": true,
+
+    "align_indent": false,
 }
